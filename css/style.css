@@ -5,3 +5,14 @@
 p {
   font-size: 12px;
   color: black; }
+
+.title {
+  background-color: cadetblue;
+  border: 2px solid #2d3b57;
+  padding: 5px;
+  display: block; }
+  .title h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2b2a2a; }
