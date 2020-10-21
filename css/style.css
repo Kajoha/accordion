@@ -3,8 +3,11 @@
   margin: 0 auto; }
 
 p {
-  font-size: 12px;
+  font-size: 15px;
   color: black; }
+
+.panel {
+  width: 300px; }
 
 .title {
   background-color: cadetblue;
