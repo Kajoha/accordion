@@ -1,0 +1,13 @@
+
+#accordion {
+    .content {
+        display: none;
+    }
+    .active .content {
+        display: block;
+    }
+    .close .conten {
+         display: none;
+    }  
+}
+
