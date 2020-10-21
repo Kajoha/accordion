@@ -1,6 +1,7 @@
 #wrapper {
     width: 960px;
     margin: 0 auto;
+    transform: translateY(+50%);
 }
 
 p {
@@ -11,3 +12,6 @@ p {
 .panel {
     width: 300px;
 }
+
+.remove {
+    display: none; }

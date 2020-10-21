@@ -1,6 +1,7 @@
 #wrapper {
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  transform: translateY(50%); }
 
 p {
   font-size: 15px;
@@ -8,6 +9,9 @@ p {
 
 .panel {
   width: 300px; }
+
+.remove {
+  display: none; }
 
 .title {
   background-color: cadetblue;
@@ -19,3 +23,17 @@ p {
     font-size: 20px;
     text-transform: uppercase;
     color: #2b2a2a; }
+
+.title:hover {
+  background-color: #2b2a2a; }
+  .title:hover h2 {
+    color: cadetblue; }
+
+#accordion .content {
+  display: none; }
+
+#accordion .active .content {
+  display: block; }
+
+#accordion .close .conten {
+  display: none; }
